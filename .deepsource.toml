@@ -6,12 +6,20 @@ name = "python"
   [analyzers.meta]
   runtime_version = "3.x.x"
 
+[[analyzers]]
+name = "test-coverage"
+
 [[code_formatters]]
 name = "black"
 
 [[code_formatters]]
 name = "isort"
 
-[[analyzers]]
-name = "test-coverage"
-enabled = true
+[[code_formatters]]
+name = "yapf"
+
+[[code_formatters]]
+name = "autopep8"
+
+[[code_formatters]]
+name = "ruff"
