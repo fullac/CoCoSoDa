@@ -11,3 +11,7 @@ name = "black"
 
 [[code_formatters]]
 name = "isort"
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
