@@ -1,5 +1,15 @@
-from .utils import (remove_comments_and_docstrings,
-                   tree_to_token_index,
-                   index_to_code_token,
-                   tree_to_variable_index)
-from .DFG import DFG_python,DFG_java,DFG_ruby,DFG_go,DFG_php,DFG_javascript,DFG_csharp
+from .DFG import (
+    DFG_csharp,
+    DFG_go,
+    DFG_java,
+    DFG_javascript,
+    DFG_php,
+    DFG_python,
+    DFG_ruby,
+)
+from .utils import (
+    index_to_code_token,
+    remove_comments_and_docstrings,
+    tree_to_token_index,
+    tree_to_variable_index,
+)
